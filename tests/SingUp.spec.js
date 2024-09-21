@@ -9,7 +9,7 @@ test('Sign Up', async ({ page }) => {
     });
     await page.getByRole('link', { name: 'Sign up' }).click();
     await page.getByLabel('Username:').click();
-    await page.getByLabel('Username:').fill('CarlosTqa');
+    await page.getByLabel('Username:').fill('CarlosTqaa');
     await page.getByLabel('Password:').click();
     await page.getByLabel('Password:').fill('test12398');
     await page.getByRole('button', { name: 'Sign up' }).click();
